@@ -104,11 +104,11 @@ label {
   color: #f06449 !important;
 }
 
-.link__hover-effect {
+.link__hover--effect {
   position: relative;
 }
 
-.link__hover-effect:after {
+.link__hover--effect:after {
   content: "";
   position: absolute;
   bottom: -3px;
@@ -127,7 +127,7 @@ label {
   background-color: #242424;
 }
 
-.link__hover-effect:hover:after {
+.link__hover--effect:hover:after {
   left: 0;
   width: 100%;
 }
@@ -329,7 +329,7 @@ MODAL
   transition: visibility 1s, z-index 1s, box-shadow 0.5s ease;
 }
 
-.modal__open .modal {
+.modal--open .modal {
   z-index: 60;
   box-shadow: 0 20px 80px 0 rgb(0, 0, 0, 0.55);
   visibility: visible;
@@ -653,7 +653,7 @@ SHAPES
   top: 80vh;
   left: 50vw;
 }
-.shape-- {
+.shape--8 {
   top: 80vh;
   left: 80vw;
 }
